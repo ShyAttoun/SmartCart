@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">SmartCart</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="add_item">Add Item</string>
+    <string name="ItemDescribtion">תיאור מוצר</string>
+    <string name="itemQuantity">כמות</string>
+    <string name="itemPrice">מחיר</string>
+    <string name="commit">בצע</string>
+    <string name="add_item_title">הוספת מוצר</string>
+    <string name="successful_data_insert">הוזנו נתונים בהצלחה!</string>
+    <string name="unsuccessful_data_insert">אנא הזן נתונים בכל השדות</string>
+    <string name="זכר">זכר</string>
+    <string name="נקבה">נקבה</string>
+    <string name="my_cart">My Cart</string>
+    <string name="delete">DELETE</string>
+    <string name="facebook_app_id">228833564668801</string>
+    <string name="fb_login_protocol_scheme">fb228833564668801</string>
+
+
+    <string name="region_prompt">בחר אזור</string>
+
+    <string-array name="region_arrays">
+
+        <item>צפון</item>
+
+        <item>מרכז</item>
+
+        <item>דרום</item>
+
+    </string-array>
+
+    <string name="chain_prompt">בחר רשת</string>
+
+    <string-array name="chain_arrays">
+
+        <item> רמי לוי</item>
+
+        <item>יינות ביתן</item>
+
+        <item>חצי חינם</item>
+
+        <item>שופרסל</item>
+
+        <item>טיב טעם</item>
+
+        <item>AM:PM</item>
+
+        <item>סופר שוק יוחננוף</item>
+
+        <item>ויקטורי</item>
+
+        <item>מחסני השוק</item>
+
+        <item>קו אופ</item>
+
+        <item>דור אלון</item>
+
+        <item>מרב-מזון כל</item>
+
+        <item>אחר</item>
+
+
+    </string-array>
+
+    <string name="snif_prompt">בחר סניף</string>
+    <string name="ערוך_מוצר">ערוך מוצר</string>
+    <string name="take_pic_camera">צלם פריט</string>
+    <string name="lets_start">בואו נתחיל!</string>
+
+    <string-array name="snif_arrays">
+
+        <item> רמי לוי-ראשלצ</item>
+
+        <item>יינות ביתן-בת ים</item>
+
+        <item>חצי חינם-תל אביב</item>
+
+        <item>שופרסל-חיפה</item>
+
+        <item>טיב טעם-באר שבע</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

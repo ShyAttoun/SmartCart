@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+        <LinearLayout
+            android:id="@+id/TableLineHistory"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginHorizontal="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:outlineProvider="bounds"
+            >
+            <TextView
+                android:background="#7c94ff3d"
+                android:id="@+id/tvTotalHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint=" סך הכל "
+                android:padding="3dp"
+                tools:layout_editor_absoluteX="83dp"
+                tools:layout_editor_absoluteY="209dp"
+                android:keyboardNavigationCluster="false"/>
+
+            <TextView
+                android:background="#5b69c3ff"
+                android:id="@+id/tvHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="מחיר "
+                android:padding="3dp"
+                tools:layout_editor_absoluteX="83dp"
+                tools:layout_editor_absoluteY="209dp"
+                android:keyboardNavigationCluster="false"/>
+
+            <TextView
+                android:id="@+id/tvQuantityHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="כמות"
+                android:padding="3dp"
+                tools:layout_editor_absoluteX="151dp"
+                tools:layout_editor_absoluteY="209dp"
+                android:keyboardNavigationCluster="false"/>
+
+            <TextView
+                android:background="#5b69c3ff"
+                android:id="@+id/tvDescriptionHistory"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="3dp"
+                android:hint="תיאור"
+                tools:layout_editor_absoluteX="220dp"
+                tools:layout_editor_absoluteY="209dp"
+                android:keyboardNavigationCluster="false"/>
+
+            <ImageView
+                android:id="@+id/ivProductHistory"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:keyboardNavigationCluster="false" />
+
+        </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

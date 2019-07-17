@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smartcart.www.smartcart.Fragments.ItemsListFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        >
+        <Button
+            android:id="@+id/btnAddItemDialog"
+            android:layout_width="59dp"
+            android:layout_height="39dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/plus"
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="הוספת פריט"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnCreateGroceryList"
+            android:layout_width="59dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/btnlist"
+            />
+
+        <TextView
+            android:id="@+id/tvGroLisy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="8dp"
+            android:text="רשימת הקניות שלי"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="120dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:padding="5dp"
+            android:text="סך הכל"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginStart="5dp"
+            android:text="מחיר"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginStart="5dp"
+            android:text="כמות"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="תיאור פריט"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvItemsList"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#56b9ff"
+        android:text="סיים ושמור"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/rltvSum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/btnSave"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+       >
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:hint="סכום"
+            android:padding="5dp"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="#0320ff"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="סכום"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:hint="כמות"
+            android:padding="5dp"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="#0320ff"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="מספר הפריטים"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

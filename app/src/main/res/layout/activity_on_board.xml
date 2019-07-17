@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context ="com.smartcart.www.smartcart.WalkThrough.OnBoardActivity">
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/slideViewPager"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/dotsLayout">
+
+    </android.support.v4.view.ViewPager>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp"
+        android:id="@+id/dotsLayout"
+        >
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Back"
+        android:background="@null"
+       android:textColor="@color/design_default_color_primary_dark"
+        android:visibility="invisible"
+        android:id="@+id/prevBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/nextBtn"
+        android:text="Next"
+        android:background="@null"
+        android:textColor="@color/design_default_color_primary_dark"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/finishBtn"
+        android:text="Finish"
+        android:background="@null"
+        android:visibility="invisible"
+        android:enabled="false"
+        android:textColor="@color/design_default_color_primary_dark"
+        />
+
+
+</RelativeLayout>

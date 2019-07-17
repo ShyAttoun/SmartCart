@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/TableLine"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:padding="3dp"
+            android:layout_marginHorizontal="5dp"
+            >
+            <TextView
+                android:background="#7c94ff3d"
+                android:id="@+id/tvWatchDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint=" הצג פרטי רכישה "
+                android:padding="3dp"
+
+                />
+
+            <TextView
+                android:background="#5b69c3ff"
+                android:id="@+id/tvSum"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="סכום עסקה"
+                android:padding="3dp"
+                />
+
+            <TextView
+                android:id="@+id/tvLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="מקום רכישה"
+                android:padding="3dp"
+               />
+
+            <TextView
+                android:background="#5b69c3ff"
+                android:id="@+id/tvDate"
+                android:layout_width="139dp"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:textAlignment="center"
+                android:padding="3dp"
+                android:hint="תאריך"
+                />
+        </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/historyy"
+        android:title="היסטוריה" />
+
+    <item
+        android:id="@+id/nav_pricesMatch"
+        android:icon="@drawable/investment"
+        android:title="השוואת מחירים" />
+
+
+    <item
+        android:id="@+id/nav_myGroceryList"
+        android:icon="@drawable/grocery"
+        android:title="רשימת הקניות שלי" />
+
+    <item
+        android:id="@+id/nav_contactUs"
+        android:icon="@drawable/communication"
+        android:title="דווח/י על תקלה" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout"
+        android:title="התנתק" />
+
+
+</menu>

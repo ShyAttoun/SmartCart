@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#45a8ff">
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/imput"
+        android:hint="שם מלא"
+        android:padding="10dp"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etFullName"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/imput"
+        android:hint="גיל"
+        android:padding="10dp"
+        tools:targetApi="o" />
+
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_below="@+id/etAge"
+            android:layout_centerHorizontal="true"
+            >
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/imput"
+                android:padding="5dp"
+                android:text="נקבה" />
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:layout_marginBottom="7dp"
+                android:layout_marginStart="7dp"
+                android:background="@drawable/imput"
+                android:padding="5dp"
+                android:text="  זכר" />
+
+
+        </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio"
+        android:layout_gravity="center|top"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/imput2"
+        android:ems="10"
+        android:hint="הכנס כתובת אי מייל"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_email"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/imput2"
+        android:ems="10"
+        android:gravity="end"
+        android:layout_marginTop="5dp"
+        android:hint="הכנס סיסמה"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textAlignment="center"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/register_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_password"
+        android:background="@drawable/imput2"
+        android:ems="10"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"
+        android:hint="הכנס סיסמה שוב"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:gravity="end"
+        tools:layout_editor_absoluteX="95dp"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_confirm_password"
+        android:background="@drawable/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="אישור"
+        />
+</RelativeLayout>
